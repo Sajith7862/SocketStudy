@@ -83,8 +83,13 @@ s.connect(('localhost',8000))
 print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement received from the server".encode())
+
 ```
-## OUTPUT :
+
+
+
+# OUTPUT :
+
 # CLIENT:
 ![image](https://github.com/user-attachments/assets/4ea112bb-8864-4fb9-b624-eaa6451e4380)
 
